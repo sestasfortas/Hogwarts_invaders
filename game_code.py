@@ -140,7 +140,7 @@ while running:
                     bullet_Sound = mixer.Sound('reducto.wav')
                     bullet_Sound.set_volume(0.2)
                     bullet_Sound.play()
-                    #get the current x coordinate of the spaceship
+                    #get the current x coordinate of the Harrypotter
                     bulletX = playerX
                     fire_bullet(playerX, bulletY)
 

@@ -136,7 +136,7 @@ while running:
             if event.key == pygame.K_RIGHT:
                 playerX_change = 1.2
             if event.key == pygame.K_SPACE:
-                if bullet_state is "ready":
+                if bullet_state == "ready":
                     bullet_Sound = mixer.Sound('reducto.wav')
                     bullet_Sound.set_volume(0.2)
                     bullet_Sound.play()
@@ -204,7 +204,7 @@ while running:
     if bulletY <= 0:
         bulletY = 480
         bullet_state = "ready"
-    if bullet_state is "fire":
+    if bullet_state == "fire":
         fire_bullet(bulletX,bulletY)
         bulletY -= bulletY_change
 

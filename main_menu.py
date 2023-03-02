@@ -11,7 +11,7 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 
 
 # Set the window title
-pygame.display.set_caption("Harry Potter Game")
+pygame.display.set_caption("Hogwarts Invaders")
 icon = pygame.image.load('Harry_potter.png')
 pygame.display.set_icon(icon)
 
